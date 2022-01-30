@@ -5,6 +5,13 @@ class Triangle {
         y=b;
         z=c;
     }
+/* Can also be defined by :
+    public Triangle(int x,int y,int z){
+        this.x=x;
+        this.y=y;
+        this.z=z;
+    }
+    */
 
     public int getLongestSide(){
         int MaxSize = Math.max(this.z,Math.max(this.x, this.y));
